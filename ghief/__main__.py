@@ -9,7 +9,7 @@ from backup_git_repository import backup_git_repository
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-l', '--list', help='Specify repository list file', default='./ghieflist.yaml')
-    parser.add_argument('-v', '--verbose', help='Be chatty')
+    parser.add_argument('-v', '--verbose', action='store_true', help='Be chatty')
     parser.add_argument('--debug', action='store_true', help='Enabled debugging output')
     args = parser.parse_args()
     # configure logging
