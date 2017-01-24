@@ -2,6 +2,8 @@
 
 *A backup script for batch updating remote repositories*
 
+[![Build Status](https://travis-ci.org/MatthiasLohr/ghief.svg)](https://travis-ci.org/MatthiasLohr/ghief)
+
 ## Usage
 ```
 usage: ghief [-h] [-l LIST] [-v] [--debug]
