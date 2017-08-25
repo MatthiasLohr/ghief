@@ -6,3 +6,7 @@ clean:
 
 wheel:
 	python setup.py bdist_wheel
+
+upload:
+	python setup.py sdist upload --sign
+

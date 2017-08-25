@@ -2,7 +2,7 @@
 from setuptools import setup
 setup(
     name='ghief',
-    version='0.1.1',
+    version='0.1.2',
     author='Matthias Lohr',
     author_email='matthias@lohr.me',
     description='Git Backup Script',
