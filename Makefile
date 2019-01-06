@@ -1,12 +1,12 @@
 
 default:
+	python3 setup.py sdist bdist_wheel
 
 clean:
 	rm -rf build/ dist/ *.egg-info
 
-wheel:
-	python setup.py bdist_wheel
-
 upload:
-	python setup.py sdist upload --sign
+	twine upload dist/*
 
+bootstrap:
+	virtualenv -p $$(which python3) venv
